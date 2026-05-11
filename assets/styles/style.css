@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
+}
+
+/*---------Top-Menu-------*/
+.top-bar {
+  background-color: rgb(4, 56, 115);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-logo {
+  height: 25px;
+}
+.nav-bar {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-menu ul {
+  display: flex;
+  list-style-type: none;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.nav-menu li {
+  padding: 0 10px;
+}
+.nav-menu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn1 {
+  font-size: 11px;
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
+  background-color: #ffe492;
+  border: none;
+}
+
+.btn2 {
+  font-size: 11px;
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
+  background-color: #4f9cf9;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  margin-left: 10px;
+}
+.fa-arrow-right {
+  margin-left: 5px;
+}
+
+/*-----Hero-Section--------*/
+.hero-section {
+  background-color: #043873;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 5% 14%;
+  background-image: url("../images/wave-background-hero.svg");
+  background-size: 110%;
+  background-position: 80% 100%;
+  background-repeat: no-repeat;
+}
+
+.box {
+  max-width: 672px;
+  background-color: #c4defd;
+  padding: 10px;
+  width: 824px;
+  height: 500px;
+}
+
+.text-box {
+  color: #fff;
+  max-width: 656px;
+  padding: 30px 0;
+}
+
+.text-box h2 {
+  font-family: "Inter" sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.text-box p {
+  font-family: "Inter" sans-serif;
+  padding: 30px 0;
+}
+
+/*........Project-Management Section-------*/
+.work-management {
+  padding: 10%;
+  background-image: url("../images/BACKGROUND1.svg");
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position: -3% 70%;
+}
+.project-box {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 14%;
+}
+
+.blue-box {
+  background-color: #c4defd;
+  padding: 10px;
+  width: 748px;
+  height: 547px;
+}
+
+.project-management {
+  background-image: url("../images/stroke-element.svg");
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
+.project-management h2 {
+  font-size: 72px;
+  font-weight: 700;
+  margin-right: 100px;
+}
+
+.project-management p {
+  padding: 50px 0;
+}
+
+.btn {
+  padding: 20px 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4f9cf9;
+  color: #fff;
+}
+
+/*------------Work-Together-Section-----------*/
+.work-box {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 20px 0;
+}
+
+.together-img {
+  width: 710px;
+  height: 661px;
+}
