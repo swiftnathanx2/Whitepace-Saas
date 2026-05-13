@@ -108,7 +108,7 @@
   background-image: url("../images/BACKGROUND1.svg");
   background-repeat: no-repeat;
   background-size: 500px;
-  background-position: -3% 70%;
+  background-position: -2% 32%;
 }
 .project-box {
   display: grid;
@@ -128,10 +128,9 @@
 
 .project-management {
   background-image: url("../images/stroke-element.svg");
-
-  background-size: contain;
+  background-size: 570px;
   background-repeat: no-repeat;
-  background-position: center left;
+  background-position: 20% 44%;
 }
 
 .project-management h2 {
@@ -155,11 +154,80 @@
 /*------------Work-Together-Section-----------*/
 .work-box {
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  margin: 20px 0;
+  grid-template-columns: 2fr 2fr;
+  gap: 50px;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.together-img {
-  width: 710px;
+.together-circle {
   height: 661px;
+  background-image: url("../images/work-together.svg");
+  background-repeat: no-repeat;
+  background-size: 660px;
 }
+
+.work-together h2 {
+  background-image: url("../images/stroke-element.svg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  font-size: 72px;
+  font-weight: 700;
+}
+
+.work-together p {
+  padding: 50px 0;
+  font-size: 19px;
+}
+
+.btn-together {
+  padding: 20px 40px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4f9cf9;
+  color: #fff;
+}
+
+/*------Extension Section---------*/
+
+.extension-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 5%;
+  background-color: #043873;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-column {
+  color: #fff;
+}
+
+.text-column h2 {
+  font-size: 72px;
+  font-weight: 700;
+  background-image: url("../images/stroke-element.svg");
+  background-repeat: no-repeat;
+  background-size: 500px 30px;
+  background-position: bottom center;
+}
+
+.text-column p{
+  font-size: 18px;
+  padding: 20px 0;
+}
+
+.btn-go{
+  padding: 20px 40px;
+  border:none;
+  background-color: rgb(79, 156, 249);
+  color: rgb(255, 255, 255);
+  border-radius: 3px;
+}
+.box-column {
+  background-color: #c4defd;
+  width: 666px;
+  height: 479px;
+}
+
+.
