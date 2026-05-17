@@ -81,7 +81,7 @@
   max-width: 672px;
   background-color: #c4defd;
   padding: 10px;
-  width: 824px;
+  max-width: 824px;
   height: 500px;
 }
 
@@ -127,10 +127,10 @@
 }
 
 .project-management {
-  background-image: url("../images/stroke-element.svg");
-  background-size: 570px;
+  background-image: url("../images/stroke1.svg");
+  background-size: 590px;
   background-repeat: no-repeat;
-  background-position: 20% 44%;
+  background-position: 20% 38%;
 }
 
 .project-management h2 {
@@ -201,6 +201,7 @@
 
 .text-column {
   color: #fff;
+  padding: 0 10%;
 }
 
 .text-column h2 {
@@ -209,25 +210,65 @@
   background-image: url("../images/stroke-element.svg");
   background-repeat: no-repeat;
   background-size: 500px 30px;
-  background-position: bottom center;
+  background-position: bottom right;
 }
 
-.text-column p{
+.text-column p {
   font-size: 18px;
   padding: 20px 0;
 }
 
-.btn-go{
+.btn-go {
   padding: 20px 40px;
-  border:none;
+  border: none;
   background-color: rgb(79, 156, 249);
   color: rgb(255, 255, 255);
   border-radius: 3px;
 }
 .box-column {
   background-color: #c4defd;
-  width: 666px;
+  max-width: 666px;
   height: 479px;
 }
 
-.
+/*----------------Customs-------------------*/
+
+.customise-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 5%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.customise-box {
+  background-color: #c4defd;
+  max-width: 666px;
+  height: 479px;
+  margin-left: 9%;
+}
+
+.customise-text {
+  max-width: 669px;
+}
+
+.customise-text h2 {
+  font-size: 80px;
+  font-weight: 700;
+  background-image: url("../images/stroke1.svg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.customise-text p {
+  padding: 30px 0;
+  font-size: 18px;
+}
+
+.customise-button {
+  background-color: #4f9cf9;
+  color: rgb(255, 255, 255);
+  padding: 20px 30px;
+  border: none;
+  border-radius: 5px;
+}
