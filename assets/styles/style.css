@@ -272,3 +272,201 @@
   border: none;
   border-radius: 5px;
 }
+
+/*------Choose your plan section-----*/
+
+.choose-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.choose-heading h2 {
+  text-align: center;
+  font-size: 72px;
+  font-weight: 700;
+  background-image: url("../images/stroke1.svg");
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position: bottom right;
+}
+
+.choose-text {
+  max-width: 979px;
+  text-align: center;
+  font-size: 18px;
+  padding: 25px 0;
+}
+
+/*-----price-card subsection----*/
+
+.choose-price-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  margin: 60px;
+}
+
+.fa-circle-check i{
+  display: flex;
+  font-size: 80px;
+  align-items: flex-start;
+}
+
+.free-card {
+  border: 1px solid rgb(255, 238, 187);
+  border-radius: 10px;
+  /*display: grid;
+  grid-template-rows: repeat(3, 1fr);*/
+  padding: 40px 44px;
+}
+
+.free-heading p {
+  padding: 10px 0;
+}
+
+.free-heading h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.free-price {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.free-text {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.free-list li {
+  padding: 20px 0;
+  list-style-type: none;
+}
+
+.btn-free {
+  background-color: rgb(255, 255, 255);
+  padding: 16px 40px;
+  border: 1px solid rgb(255, 238, 187);
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.personal-card {
+  background-color: rgb(4, 56, 115);
+  padding: 80px 44px;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.personal-heading p {
+  margin: 10px 0;
+  padding: 20px 0;
+}
+
+.personal-heading h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.personal-price {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.personal-text {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.personal-list li {
+  padding: 20px 0;
+  list-style-type: none;
+}
+
+.fa-circle-check {
+  margin-right: 1rem;
+}
+
+.btn-personal {
+  background-color: rgb(79, 156, 249);
+  padding: 16px 40px;
+  border-radius: 8px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.organization-card {
+  border: 1px solid rgb(255, 238, 187);
+  border-radius: 10px;
+  /*display: grid;
+  grid-template-rows: repeat(3, 1fr);*/
+  padding: 40px 44px;
+}
+
+.org-heading p {
+  padding: 10px 0;
+}
+
+.org-heading h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.org-price {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.org-text {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.org-list li {
+  padding: 20px 0;
+  list-style-type: none;
+}
+
+.btn-org {
+  background-color: rgb(255, 255, 255);
+  padding: 16px 40px;
+  border: 1px solid rgb(255, 238, 187);
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/*----------Your work section----------*/
+.work-everywhere {
+  position: relative;
+  background-color: rgb(4, 56, 115);
+  padding: 8.75rem 13.75rem;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  overflow: visible;
+}
+
+.work-everywhere::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: -10px;
+
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/concentric-wave.svg");
+  background-repeat: no-repeat;
+  background-size: 280px;
+  background-position: bottom left;
+}
