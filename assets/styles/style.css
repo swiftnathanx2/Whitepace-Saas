@@ -161,7 +161,7 @@
 }
 
 .together-circle {
-  height: 661px;
+  height: 41.313rem;
   background-image: url("../images/work-together.svg");
   background-repeat: no-repeat;
   background-size: 660px;
@@ -309,9 +309,8 @@
   margin: 60px;
 }
 
-.fa-circle-check i{
+li {
   display: flex;
-  font-size: 80px;
   align-items: flex-start;
 }
 
@@ -469,4 +468,106 @@
   background-repeat: no-repeat;
   background-size: 280px;
   background-position: bottom left;
+}
+
+.yourwork-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.yourwork-text h3 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  background-image: url("../images/stroke2.svg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.yourwork-text p {
+  max-width: 66.5rem;
+  padding: 2.5rem 0;
+  text-align: center;
+  font-size: 1.12rem;
+  font-weight: 400;
+}
+
+.yourwork-btn button {
+  padding: 1.5rem 2.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgb(79, 156, 249);
+  color: rgb(255, 255, 255);
+}
+
+/*---------Your data section-------*/
+.data-container {
+  padding: 8.75rem 13.75rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+}
+
+.your-data-text {
+  max-width: 50rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.yourdata-heading h3 {
+  background-image: url("../images/stroke1.svg");
+  background-repeat: no-repeat;
+  background-position: 13rem bottom;
+  background-size: 30rem;
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+
+.yourdata-paragraph {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.data-btn button {
+  padding: 1.25rem 2.5rem;
+  border: none;
+  border-radius: 0.7rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(79, 156, 249);
+}
+.your-data-img {
+  padding: 13rem 20rem;
+  max-width: 42.563rem;
+  height: 23.813rem;
+  background-image: url("../images/Element.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/*--------Our Sponsors-----------*/
+.our-sponsors {
+  padding: 8.75rem 13.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sponsor-heading h3 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  padding: 2rem 0;
+  text-align: center;
+  background-image: url("../images/stroke-yellow.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 36rem 5rem;
+}
+
+.sponsor-icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 3.5rem 0;
 }
